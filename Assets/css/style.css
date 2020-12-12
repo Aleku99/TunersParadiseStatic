@@ -1,0 +1,95 @@
+/*Sticky footer*/
+html,
+body {
+  height: 100%;
+  font-size: 20px;
+  --gunmetal: #343a40ff;
+  --cultured: rgb(239, 239, 239);
+  --blue-munsell: #2292a4ff;
+  --lavender-floral: #b084ccff;
+  --green-pigment: #08a045ff;
+  --bg-color: #cccccc;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+    color: var(--blue-munsell);
+    margin-top: 3rem;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+.text-footer {
+  color: var(--cultured);
+}
+
+/*Page css*/
+.nav-custom {
+  display: flex;
+  background-color: transparent;
+}
+
+.hero-bg {
+  min-height: 100%;
+  background-image: url("../images/greyscale supra.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.gearbox-sw {
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.form-container{
+    margin-top: auto;
+}
+.footer-divisions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-divisions > p, .footer-divisions > h3{
+  color: var(--cultured);
+  margin-top: 1rem;
+}
+
+.footer-divisions-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-divisions-1 > p, .footer-divisions-1 > h3{
+  color: var(--cultured);
+  margin-top: 1rem;
+
+}
+
+.home-jumbo {
+  background-color:rgba(239, 239, 239, 0.3);
+  margin-top: 2rem;
+}
+
+.footer-background {
+  background-image: url(../images/Background-Compressed.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+#submit-button {
+  margin-bottom: 2rem;
+}
