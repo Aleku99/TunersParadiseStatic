@@ -9,6 +9,8 @@ body {
   --lavender-floral: #b084ccff;
   --green-pigment: #08a045ff;
   --bg-color: #cccccc;
+  --red-color: #B3001B;
+  --red-color-light: #FF3352;
 }
 body {
   display: flex;
@@ -16,7 +18,7 @@ body {
 }
 
 h1{
-    color: var(--blue-munsell);
+    color: var(--red-color);
     margin-top: 3rem;
 }
 .content {
@@ -38,7 +40,7 @@ h1{
 
 .hero-bg {
   min-height: 100%;
-  background-image: url("../images/greyscale supra.jpg");
+  background-image: url("../images/2021-lamborghini-aventador-mmp-1-1601499002.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +81,7 @@ h1{
 }
 
 .home-jumbo {
-  background-color:rgba(239, 239, 239, 0.3);
+  background-color:rgba(239, 239, 239, 0.5);
   margin-top: 2rem;
 }
 
@@ -92,4 +94,23 @@ h1{
 
 #submit-button {
   margin-bottom: 2rem;
+}
+
+.after-hero-bg {
+  min-height: 100%;
+  display: flex;
+}
+
+.button-custom {
+  margin: 1rem 0;
+  background-color: var(--red-color-light);
+}
+
+a {
+  color: var(--red-color);
+}
+
+a:hover{
+  color: var(--red-color-light);
+  text-decoration: none;
 }
